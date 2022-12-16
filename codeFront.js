@@ -288,17 +288,17 @@ function plotTag(x, y) {
             allBeacon += `<ul class="lista_Beacon">
                         <li><div class="quadrado">${
                           grupos[i]
-                        }</div> <div class="beancon" style="color:green;"><span style="color: black;" class="material-symbols-outlined">arrow_right_alt</span> <span style="color: black;">${
+                        }1</div> <div class="beancon" style="color:green;"><span style="color: black;" class="material-symbols-outlined">arrow_right_alt</span> <span style="color: black;">${
               dados[i]["positionX"]
             } M</span>  ${"80%"}<span class="material-symbols-outlined">${"battery_horiz_075"}</span></div></li>
                         <li><div class="quadrado">${
                           grupos[i]
-                        }</div> <div class="beancon" style="color:green;"><span style="color: black;" class="material-symbols-outlined">arrow_right_alt</span> <span style="color: black;">${
+                        }2</div> <div class="beancon" style="color:green;"><span style="color: black;" class="material-symbols-outlined">arrow_right_alt</span> <span style="color: black;">${
               dados[i]["positionY"]
             } M</span>  ${"80%"}<span class="material-symbols-outlined">${"battery_horiz_075"}</span></div></li>
                         <li><div class="quadrado">${
                           grupos[i]
-                        }</div> <div class="beancon" style="color:green;"><span style="color: black;" class="material-symbols-outlined">arrow_right_alt</span> <span style="color: black;">${
+                        }3</div> <div class="beancon" style="color:green;"><span style="color: black;" class="material-symbols-outlined">arrow_right_alt</span> <span style="color: black;">${
               dados[i]["positionZ"]
             } M</span>  ${"100%"}<span class="material-symbols-outlined">${"battery_full_alt"}</span></div></li>
                         </ul>`;
